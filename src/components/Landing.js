@@ -32,7 +32,7 @@ export default class Landing extends Component {
                     </div>
                     <div className="anim-panel">
                         <p>Explore high quality, well documented code</p>
-                        <a href="/portfolio" className="read-btn primary">Explore portfolio</a>
+                        <a href="/about" className="read-btn primary">Explore portfolio</a>
                     </div>
                 </div>
             </section>
@@ -45,7 +45,7 @@ export default class Landing extends Component {
                         <p>
                             A versatile, adaptable, creative and technically adept software developer with good organizational skills, coupled with excellent interpersonal and communication skills. He also has good presentation skills. He is diligent, keen, thorough and effective in every given task. Also a persistent learner and highly motivated to reach heights previously un-met.
                         </p>
-                        <a href="/portfolio" className="read-btn">Read more</a>
+                        <a href="/about" className="read-btn">Read more</a>
                     </div>
                 </div>
             </section>
@@ -56,7 +56,7 @@ export default class Landing extends Component {
                     </div>
                     <div className="anim-panel">
                         <p>Review the source code, and live sites for some of the projects he has done</p>
-                        <form action="/portfolio">
+                        <form action="/about">
                             <button className = "cta" type="submit">Get started</button>
                         </form>
                     </div>
