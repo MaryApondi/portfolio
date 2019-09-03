@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
+
+$primary-color: #181818;
+$button-color: #5AA2FF;
+$featured-color: yellow;
+$beautiful-pink: #ED0982;
+$refreshingly-blue: #5AA2FF;
+$white-text: whitesmoke;
+$grey-text: grey;
+$white-background: white;
+$amazing-grey-text: rgba(245, 245, 245, 0.637);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: "Maiandra GD";
+    font-size: 16px;
+
+    a:hover{
+    text-decoration: none;
+    }
+}
+
+
+header{
+    position: absolute;
+    padding: 1em;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw);
+    background: $white-background;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a.logo {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        li a{
+            padding: 1em;
+        }
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+
+    section{
+        padding: 3em;
+
+        h1, h2, read-btn{
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h2{
+            font-size: 1.2em;
+        }
+
+        .read-btn{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            background: url('../images/arrow.svg') no-repeat;
+            background-size: 8px;
+            background-position: 0 1px;
+            padding-left: 1em;
+        }
+
+        .primary{
+            padding: 1.5em 1.5em 1.5em calc(3em + 25px);
+            background-position: 3em;
+            border: 1px solid $grey-text;
+            display: inline-block;
+            margin-top: 3em;
+            margin-left: -3em;
+            color: $white-text;
+        }
+
+        .clipper{
+            overflow: hidden;
+
+        }
+    }
+
+    section.hero {
+        padding: 8em 8em 8em 2em;
+        background: url('../images/programming-3201149_960_720.png');
+        background-size: cover;
+        color: $white-text;
+
+        p{
+            width: 70%;
+            font-size: 1.2em;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-size: 2.2em;
+        }
+    }
+
+
+    section.featured, section.explore {
+        font-size: .9em;
+        line-height: 1.6em;
+    }
+
+    section.featured {
+        background-color: $refreshingly-blue;
+            
+        .read-btn{
+            margin-top: 2em;
+            display: block;
+            background-position: 0 .2em;
+        } 
+    }
+
+    section.explore {
+
+        button{
+            margin: 1em 0 1em 0;
+            width: 100%;
+            background: $button-color;
+            border: none;
+            color: $white-background;
+            padding: 1em;
+            font-family: inherit;
+        }
+    }
+}
+
+
+// HOME, ABOUT AND CONTACT STYLES
+
+.fullscreen{
+    width: calc(100vw);
+    background-image: linear-gradient(-45deg, #0C0D16, #1A1C2B);
+    height: 100%;
+      
+    .featured-section{
+        padding: 6em 0 2em 0;
+        background-color:black;
+        color: $white-background;
+        text-align: center;
+        font-size: 1.3em;
+        height: calc(75% + 3em);
+        width: calc(100% - .05em);
+        border-bottom: 1px groove $beautiful-pink;
+    }
+    .Projects{
+        width: 100vw;
+        margin-top: 3em;
+        width: 75%;
+        margin-left: 12.5%;
+
+        .project-wrapper {
+            color: $white-background;
+            display: flex;
+            text-align: left;
+            width: 100%;
+            background-color: #0C0D16;
+            border: 0;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            
+        .thumbnail {
+            left: 0;
+            padding: 0;
+            margin-right: 0.5em;
+            border-right: 1px groove $beautiful-pink;
+
+            .thumbnail-image{
+            left: 0;
+            height: 80px;
+            width: 80px;
+            }
+        }
+            .arrow-head{
+                // margin: 2.5% 5% 2.5% 40%; 
+                margin-top: 1.35em;
+                -webkit-transition-duration: .3s;
+                -moz-transition-duration: .3s;
+                -o-transition-duration: .3s;
+                transition-duration: .3s;
+                -webkit-transition-property: -webkit-transform;
+                -moz-transition-property: -moz-transform;
+                -o-transition-property: -o-transform;
+                transition-property: transform;
+            }
+
+            arrow-head:hover{
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                color: $beautiful-pink;
+            }
+
+            .tags{
+                font-size: 0.4em;
+                display: flex;
+                color: $grey-text;
+
+                span{
+                    margin: 0 0.5em;
+                }
+                span:nth-child(1){
+                    margin-left: 0;
+                }
+            }
+
+            .text-wrapper {
+                margin-top: 15px;
+                padding-top: 10px;
+                width: calc(92% - 89px);
+            }
+        }
+
+        .project-content{
+            .link-projects{
+                display: flex;
+                justify-content: space-between;
+                .link{
+                    margin: 0.5px solid $beautiful-pink;
+                    background-color: none;
+                    color: $beautiful-pink;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .link-buttons{
+        display: grid;
+        margin: 1em 12.5% 0 12.5%;
+        padding: 1em 0 1em 0;
+        
+        div{
+            padding: 1em;
+            border: 1px dotted;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        
+        &:hover{
+                background-color: $refreshingly-blue;
+                transition: all 0.3s ease-in-out;
+                a  {
+                    color: $white-background;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+.project-content-wrapper{
+    display: grid;
+    align-content: left;
+    transition: "all 3s";
+    width: 100%;
+
+    .paragraph{
+    color: rgba(245, 245, 245, 0.637);
+    width: calc(100%);
+    }
+    .content-image{
+    display: block;
+    padding: .5em;
+
+    .project-image{
+        height: 56.25%;
+        width: 100%;
+        }
+    }
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-evenly; 
+    margin:1.5em 0 0 -.5em; 
+    padding:0.3em;
+
+    .project-link{
+        color: rgba(245, 245, 245, 0.637); 
+        padding: 0.5em; 
+        border-radius: .2em;
+        text-align: center;
+    }
+
+    .project-link a:hover{
+        color: $beautiful-pink
+    }
+}
+
+//ABOUT PAGE:
+.about {
+    display: grid;
+    grid-template-columns: auto;
+    line-height: 1.6em;
+
+}
+
+.about, .technical-skills, .personal-statement{
+
+    margin-left: 3%;
+    margin-right: 2%;
+    color:$amazing-grey-text;
+    padding: 1em 0 0 0;
+    font-size: 0.9em;
+    text-align: left;
+
+    h2, h3, h4 {
+        font-weight: lighter; 
+        color: $beautiful-pink;
+        font-size: 1.5em;
+        padding: 1em 0;
+        text-align: left;
+    }
+
+    h2{
+        padding: 0.3em 0 0;
+    }
+    h3{
+        font-size: 1.2em;
+        padding-top: .3em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+}
+
+.personal-statement{
+    padding-top: 6em;
+
+}
+.technical-skills{
+    margin-top: -1em;
+    padding-left: 0;
+    margin-left: 0;
+
+    ul li{
+    display: inline-block;
+    padding: 0.5em;
+    border: 1px hidden $beautiful-pink; //outset, groove, inset, ridge and dotted
+    margin: 0.2em;
+    border-radius: 2em;
+    }
+
+    ul li:hover{
+    background-color: $featured-color;
+    color: $beautiful-pink;
+    }
+}
+
+.experience ul, .education ul{
+    list-style: square inside none;
+    li{
+        margin: 0.5em 0;
+    }
+}  
+
+
+
+//CONTACT PAGE:
+
+.location-info {
+    height: calc(110vh);
+    width: calc(100% - 1em);
+    padding: 2em 0 1em 0;
+
+}
+.contact-div{
+    display: inline-block;
+    padding: .5em;
+    color: $amazing-grey-text;
+    margin: 3em 0 0 .3em;
+    font-size: .8em;
+    a:hover{
+        text-decoration: none;
+    }
+    .myform{
+        margin: .5em 0;
+        div{
+            padding: 0.2em;
+            margin: 1em 1em -0.5em .1em;
+            border: none;
+            float: left;
+        }
+    }
+}
+
+
+//RESPONSIVENESS
+@media only screen and (min-width: 480px){
+    .location-info{
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    html {
+        font-size: 1.2em;
+    }
+
+    .location-info{
+        grid-template-columns: 50% auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "personal-statement contact-div";
+    }
+    section.contact-div {
+        grid-area: contact-div;
+    }
+
+    .project-wrapper{
+        .tags span{
+            font-size: 12.8px;
+        }
+    }
+
+    .personal-statement{
+        width: calc(85%);
+    }
+}
+
+@media only screen and (min-width: 1020px){
+    html{
+        font-size: 1.3em;
+    }
+    header {
+        background: none;
+        width: calc(100vw - 1em);
+        
+        .logo {
+            color: $white-background;
+        }
+
+        nav ul li a{
+            color:ghostwhite;
+        }
+    }
+    .fullscreen{
+        .featured-section{
+            padding: 3em 0 5sem 0;
+        }
+    }
+    .wrapper {
+        grid-template-columns: 72.5% auto;
+        grid-template-rows: 60% auto;
+        grid-template-areas:
+            "hero featured" 
+            "hero explore";
+        height: 100vh;
+    }
+
+    section.hero {
+        grid-area: hero;
+    }
+
+    section{ 
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+
+    .personal-statement{
+        text-align: justify;
+        // width: 80%;
+
+    }
+
+    .project-content-wrapper{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+            "paragraph content-image"
+            "paragraph link-container";
+
+    }
+    .paragraph{
+        grid-area: paragraph;
+    }
+
+    .content-image{
+        grid-area: content-image;
+        // margin-left: 12.5em;
+
+        .project-image{
+            height: 180px;
+            width: 320px;
+        }
+    }
+
+    .link-container{
+        grid-area: link-container;
+        display: block;
+        margin: 4em 0 0 6em;
+    }
+
+    .about{
+        grid-template-columns: 70% auto;
+        grid-template-areas:
+            "experience technical-skills"
+            "education technical-skills";
+            height:100%;
+        
+        .experience{
+            margin-right: 1em;
+            border-right: 0.02px dotted;
+            padding: 1em;
+        }
+    }
+    aside.technical-skills{
+        grid-area: technical-skills;
+    }
+
+    .location-info{
+        height: 100vh;
+    }
+    .contacts{
+        width: 20%;
+        height: 18em;
+        margin: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 1800px){
+    html {
+        font-size: 1.4em;
+    }
+}
