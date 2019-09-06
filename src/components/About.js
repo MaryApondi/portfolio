@@ -7,13 +7,13 @@ export default function About() {
                 <h3>Personal statement</h3>
                 <p>
                     A creative, passionate, versatile and self- motivated graduate from Nairobits school of Digital Design with good interpersonal and communication skills. 
-                    I am methodical, analytical and proactive; skills he has learned and used while working with the County Government of Nairobi as an Industrial attaché. 
-                    He is a full-stack developer, proficient in python and Javascript, capable of working with both object-oriented and functional programming. He has a good understanding of test-driven development, documentation and database querying and management. 
-                    He possesses strong technical experience of approximately 2 years in working at Geecko Group Holdings where he worked with the development team on front-end design, error handling, search engine optimization, feature creation, IT support and app development oversight. 
-                    Having also been through the Andela Bootcamp, he has experience working with JavaScript, Html, CSS and libraries such as Bootstrap, jQuery and SCSS, Node, React and Redux. 
-                    He also has experience working with back- end technologies in python, creating restful APIs in frameworks such as flask and Django.
-                    He thrives best in a dynamic, interactive and challenging environment where he would optimally utilize his talents and skills. 
-                    Looking to work in a creative environment where he would continuously learn and develop his skills in various capacities within an organization.
+                    I am methodical, analytical and proactive; skills that i have acquired and learned while interacting  with world class developers of Nairobits Trust and Andela Learning Community. 
+                    I am a full-stack developer, proficient in python and Javascript, capable of working with both object-oriented and functional programming. I have a good understanding of test-driven development, documentation and database querying and management. 
+                    I possess strong technical experience of approximately 1 years in studying at Nairobits school of Digital Design and Andela Learning Community. I have developed live websites games and apps with the skills. I have worked with the development team on front-end design, error handling, search engine optimization, feature creation, IT support and app development oversight at Enter Africa. 
+                    Having also been through the Google and Andela Africa Scholarship , i have an experience working with JavaScript, Html, CSS and libraries such as Bootstrap, jQuery and SCSS, Node, React and Redux. 
+                    I also have experience working with back- end technologies in python, creating restful APIs in frameworks such as flask and Django.
+                    I thrives best in a dynamic, interactive and challenging environment where I would optimally utilize his talents and skills. 
+                    Looking to work in a creative environment where i can continuously learn and develop his skills in various capacities within an organization.
                 </p>
             </section>
             <hr />
@@ -78,7 +78,7 @@ export default function About() {
                         <li>Also provided technical support to clients on software and hardware errors; worked on testing, debugging, troubleshooting and diagnostics of errors in the products. </li>
                     </ul>
                     <h3>
-                        Real Plan consultants | Field Researcher
+                        Wounded Healers organization | Field Researcher
                     </h3>
                     <ul>
                         <li>Compiled and analyzed the data collected. This enabled the development of a master-plan for an urban renewal scheme for the Eastlands area, Nairobi.</li>
@@ -86,20 +86,20 @@ export default function About() {
                         <li>Recorded five forms of road transportation and housing data in the entire Eastlands region of Nairobi</li>
                     </ul>
                     <h3>
-                        Nairobi county government | Industrial Attache
+                        Enter Africa | Game Developer
                     </h3>
                     <ul>
-                        <li>Together with the supervisors, spearheaded a training conference for sub-county officials on proper enforcement and pricing of advertisement developments for Nairobi County. This delegated revenue collection across the county to the sub-county level which in turn increased the efficiency of service delivery from the county government.</li>
+                        <li>Together with the supervisors, spearheaded a training conference for Nairobi sub-county officials on proper enforcement of Leadership and Entreprenuership developments for Nairobi County. This delegated youth initiatives across the Nairobi sub-county level which in turn increased the efficiency of service delivery from the county government.</li>
                         <li>Together with the supervisors, responded to 2 emergencies where buildings had collapsed to make preliminary assessments of the damage and write detailed reports on them. </li>
-                        <li>Conducted detailed analysis of the housing records in the county, and digitized these records. This enabled for easier retrieval of records and better forecasting of the housing trends within the city.</li>
+                        <li>Conducted census analysis of the housing records in the county, and digitized these records. This enabled for easier retrieval of records and better forecasting of the budget allocation within the city.</li>
                         <li>Monitored developments around Nairobi city and enforced regulations on the non-compliant</li>
                     </ul>
                 </section>
                 <section className="education">
                     <h2>Education</h2>
                     <h3>Maseno University</h3>
-                    <ul><li>Bachelor of Arts, Urban and Regional planning with IT </li></ul>
-                    <h3>Institute of Human Resource Management</h3>
+                    <ul><li>Diploma in Web Development </li></ul>
+                    <h3>Nairobits School of Digital Design</h3>
                     <ul><li>International Computers' Driver's License </li></ul>
 
                     <h2>Certifications</h2>

@@ -3,7 +3,7 @@
 
 # Portfolio
 
-An online resume that describes my work experience and projects and illustrates all me skills, attributes and strengths. It shows the technologies i have interacted with ; a quick description of them. 
+An online resume that describes my work experience  and illustrates all my skills, attributes and strengths. It shows the technologies i have interacted with ; and quick description of them. 
 
 It also contains all my contact information and entire work and education history.
 
