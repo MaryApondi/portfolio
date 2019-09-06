@@ -28,7 +28,7 @@ export default class Landing extends Component {
             <section className="hero">
                 <div className ="inner">
                     <div className = "clipper">
-                        <h1>Mary Apondi_Software developer</h1>
+                        <h1>Software developer</h1>
                     </div>
                     <div className="anim-panel">
                         <p>Explore my portfolio, with well documented History</p>
