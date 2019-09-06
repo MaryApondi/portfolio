@@ -31,7 +31,7 @@ export default class Landing extends Component {
                         <h1>Software developer</h1>
                     </div>
                     <div className="anim-panel">
-                        <p>Explore my portfolio, with well documented History</p>
+                        <p>MARY APONDI, with well documented History</p>
                         <a href="/about" className="read-btn primary">Explore portfolio</a>
                     </div>
                 </div>
