@@ -8,6 +8,7 @@ body {
   height: 100%;
   font-family: "Maiandra GD";
   font-size: 16px;
+  
 }
 
 body a:hover {
@@ -470,7 +471,8 @@ header nav ul li a {
         grid-template-columns: 72.5% auto;
     -ms-grid-rows: 60% auto;
         grid-template-rows: 60% auto;
-        grid-template-areas: "hero featured"  "hero explore";
+        grid-template-areas: "hero featured" 
+ "hero explore";
     height: 100vh;
   }
   section.hero {
@@ -494,7 +496,8 @@ header nav ul li a {
   .project-content-wrapper {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-        grid-template-areas: "paragraph content-image" "paragraph link-container";
+        grid-template-areas: "paragraph content-image"
+ "paragraph link-container";
   }
   .paragraph {
     -ms-grid-row: 1;
@@ -521,7 +524,8 @@ header nav ul li a {
   .about {
     -ms-grid-columns: 70% auto;
         grid-template-columns: 70% auto;
-        grid-template-areas: "experience technical-skills" "education technical-skills";
+        grid-template-areas: "experience technical-skills"
+ "education technical-skills";
     height: 100%;
   }
   .about .experience {
@@ -550,4 +554,5 @@ header nav ul li a {
     font-size: 1.4em;
   }
 }
+
 /*# sourceMappingURL=index.css.map */
