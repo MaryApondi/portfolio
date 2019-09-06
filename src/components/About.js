@@ -97,10 +97,10 @@ export default function About() {
                 </section>
                 <section className="education">
                     <h2>Education</h2>
-                    <h3>Maseno University</h3>
+                    <h3>Nairobits Trust</h3>
                     <ul><li>Diploma in Web Development </li></ul>
                     <h3>Nairobits School of Digital Design</h3>
-                    <ul><li>International Computers' Driver's License </li></ul>
+                    <ul><li>Entreprenuership and Lifeskills </li></ul>
 
                     <h2>Certifications</h2>
 
