@@ -6,8 +6,8 @@ export default function About() {
             <section className="personal-statement">
                 <h3>Personal statement</h3>
                 <p>
-                    A creative, passionate, versatile and self- motivated graduate from Maseno University with good interpersonal and communication skills. 
-                    He is methodical, analytical and proactive; skills he has learned and used while working with the County Government of Nairobi as an Industrial attaché. 
+                    A creative, passionate, versatile and self- motivated graduate from Nairobits school of Digital Design with good interpersonal and communication skills. 
+                    I am methodical, analytical and proactive; skills he has learned and used while working with the County Government of Nairobi as an Industrial attaché. 
                     He is a full-stack developer, proficient in python and Javascript, capable of working with both object-oriented and functional programming. He has a good understanding of test-driven development, documentation and database querying and management. 
                     He possesses strong technical experience of approximately 2 years in working at Geecko Group Holdings where he worked with the development team on front-end design, error handling, search engine optimization, feature creation, IT support and app development oversight. 
                     Having also been through the Andela Bootcamp, he has experience working with JavaScript, Html, CSS and libraries such as Bootstrap, jQuery and SCSS, Node, React and Redux. 
@@ -26,7 +26,7 @@ export default function About() {
                         <li>JavaScript</li>
                         <li>Django</li>
                         <li>Flask</li>
-                        <li>React and Redux</li>
+                        <li>React</li>
                         <li>JQuery</li>
                         <li>Bootstrap</li>
                         <li>SASS/SCSS</li>
