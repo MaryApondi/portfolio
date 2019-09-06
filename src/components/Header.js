@@ -4,7 +4,7 @@ export default function Header() {
     return (
             <header>
             
-                <a href='/' className='logo'>Mary Apondi</a> 
+                <a href='/' className='logo'>Home_Mary Apondi</a> 
                 <nav className="Navbar">
                     <ul>
                 
