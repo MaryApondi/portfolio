@@ -43,7 +43,7 @@ export default class Landing extends Component {
                     </div>
                     <div className="anim-panel">
                         <p>
-                            A versatile, adaptable, creative and technically adept software developer with good organizational skills, coupled with excellent interpersonal and communication skills. He also has good presentation skills. He is diligent, keen, thorough and effective in every given task. Also a persistent learner and highly motivated to reach heights previously un-met.
+                            A versatile, adaptable, creative and technically adept software developer with good organizational skills, coupled with excellent interpersonal and communication skills. I  also have good presentation skills. I am diligent, keen, thorough and effective in every given task. Also a persistent learner and highly motivated to reach heights previously un-met.
                         </p>
                         <a href="/about" className="read-btn">Read more</a>
                     </div>
